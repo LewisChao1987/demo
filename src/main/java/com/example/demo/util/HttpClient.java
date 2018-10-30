@@ -113,6 +113,7 @@ public class HttpClient {
                 while ((line = in.readLine()) != null) {
                     sb.append(line + NL);
                 }
+                System.out.println("ssd");
 
                 in.close();
                 System.out.println("状态码：" + code);
